@@ -174,7 +174,7 @@ const Dashboard = () => {
             </Button>
             <div className="flex items-center gap-2">
               <Image
-                src="/placeholder.svg"
+                src={profile}
                 alt="Profile"
                 width={32}
                 height={32}
