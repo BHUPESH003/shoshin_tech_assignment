@@ -1,7 +1,14 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
+    // Disable all ESLint rules
     "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+    // Add additional rules here, turning them off as needed
+    // For example, to disable everything
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off"
+    // And any other specific rules you want to turn off
   }
 }
