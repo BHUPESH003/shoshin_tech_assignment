@@ -7,7 +7,6 @@ import {
   MessageSquare,
   Search,
   Settings,
-  Star,
   Users,
   HelpCircle,
 } from "lucide-react";
@@ -243,7 +242,6 @@ const Dashboard = () => {
             <AnnouncementItem
               title="Outing schedule for every departement"
               time="5 Minutes ago"
-              isNew
             />
             <AnnouncementItem
               title="Meeting HR Department"

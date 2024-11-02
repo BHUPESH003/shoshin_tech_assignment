@@ -2,10 +2,9 @@ import { MoreVertical, Star } from "lucide-react"
 import { Button } from "../ui/button"
 
 // Component for rendering individual announcement items
-const AnnouncementItem = ({ title, time, isNew = false }: {
+const AnnouncementItem = ({ title, time }: {
     title: string
     time: string
-    isNew?: boolean
   }) => (
     <div className="p-4 border-b last:border-b-0">
       <div className="flex justify-between items-start gap-4">
